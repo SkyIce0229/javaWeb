@@ -1,0 +1,7 @@
+# 项目排除路径
+/javaweb-hello/target/
+/javaweb-jsp/target/
+/javaweb-jstl/target/
+/jsp/target/
+/request/target/
+/session-cookie/target/

@@ -1,0 +1,24 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2023/10/16
+  Time: 9:31
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<%--这个include是合起来编译的，会出现重复定义x的报错--%>
+<%--插入头部页面--%>
+<%@include file="common/header.jsp"%>
+
+<h1>网页主站</h1>
+<%--插入尾部页面--%>
+<%@include file="common/footer.jsp"%>
+
+
+</body>
+</html>
